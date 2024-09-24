@@ -20,6 +20,8 @@
 		18A8557B2C992A28009D7AB7 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8557A2C992A13009D7AB7 /* NetworkRequest.swift */; };
 		18A8557D2C9930D2009D7AB7 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8557C2C9930BE009D7AB7 /* NetworkDataFetch.swift */; };
 		18A8557F2C9A80FC009D7AB7 /* NetworkImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8557E2C9A80E4009D7AB7 /* NetworkImageRequest.swift */; };
+		18F4CE842CA1E6F800702780 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4CE832CA1E6E800702780 /* ArtistView.swift */; };
+		18F4CE8A2CA1EDB500702780 /* UIView + Extancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4CE892CA1EDA400702780 /* UIView + Extancion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		18A8557A2C992A13009D7AB7 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		18A8557C2C9930BE009D7AB7 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
 		18A8557E2C9A80E4009D7AB7 /* NetworkImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageRequest.swift; sourceTree = "<group>"; };
+		18F4CE832CA1E6E800702780 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
+		18F4CE892CA1EDA400702780 /* UIView + Extancion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extancion.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		1855934C2C98BAFE00FC0B06 /* Json-Artist */ = {
 			isa = PBXGroup;
 			children = (
+				18F4CE872CA1ED8600702780 /* Extancion */,
 				18A855762C99276A009D7AB7 /* MainModule */,
 				18A855742C99271D009D7AB7 /* Network */,
 				18A8556F2C992588009D7AB7 /* ArtistModel */,
@@ -165,10 +170,27 @@
 		18A855762C99276A009D7AB7 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
+				18F4CE832CA1E6E800702780 /* ArtistView.swift */,
 				185593512C98BAFE00FC0B06 /* ViewController.swift */,
 				18A855782C99278C009D7AB7 /* View.swift */,
 			);
 			path = MainModule;
+			sourceTree = "<group>";
+		};
+		18F4CE872CA1ED8600702780 /* Extancion */ = {
+			isa = PBXGroup;
+			children = (
+				18F4CE882CA1ED9200702780 /* UIKit */,
+			);
+			path = Extancion;
+			sourceTree = "<group>";
+		};
+		18F4CE882CA1ED9200702780 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				18F4CE892CA1EDA400702780 /* UIView + Extancion.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F4CE8A2CA1EDB500702780 /* UIView + Extancion.swift in Sources */,
 				185593522C98BAFE00FC0B06 /* ViewController.swift in Sources */,
 				1855934E2C98BAFE00FC0B06 /* AppDelegate.swift in Sources */,
 				18A8557F2C9A80FC009D7AB7 /* NetworkImageRequest.swift in Sources */,
@@ -309,6 +332,7 @@
 				185593502C98BAFE00FC0B06 /* SceneDelegate.swift in Sources */,
 				18A8557B2C992A28009D7AB7 /* NetworkRequest.swift in Sources */,
 				18A855732C9925D1009D7AB7 /* Model.swift in Sources */,
+				18F4CE842CA1E6F800702780 /* ArtistView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
